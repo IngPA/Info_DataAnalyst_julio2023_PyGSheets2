@@ -1,0 +1,37 @@
+Para accedera un archivo de google sheets, utilizaremos
+el modulo gspread de Pyhton. 
+
+Antes de ejecutar el script de Python, debemos crear un proyecto
+y sus accesos en una cuenta de Google: 
+
+Acceder a google console, habilitar las apis y obtener las credenciales
+
+1. Se ingresa a la pagina de https://console.cloud.google.com/
+
+2. Se crea un nuevo proyecto
+
+3. Se habilita la api de google drive y la api de google sheet
+
+4. Se crea una cuenta de servicio 2.4.1 y agregar rol de "usuario de servicio"
+Ahora entro a la cuenta de servicio creada, y busco la pestaña clave, crear clave
+5. Se crean nuevas credenciales en formato json -->se descarga un json (archivo) a la pc
+
+6. Se suben las credenciales a drive
+
+
+Para preparar este proyecto, creo una carpeta, el entorno virtual
+e instalo gspread (y actualizo pip)
+    pip install gspread
+    python.exe -m pip install --upgrade pip
+
+
+Creo una carpeta para mi proyecto
+creo un archivo .gitignore
+y le cargo el archivo json de credenciales
+
+Creo mi script de python (indexacion.py)
+
+
+
+
+
